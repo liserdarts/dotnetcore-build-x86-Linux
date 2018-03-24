@@ -1,5 +1,5 @@
 # dotnetcore-build-x86-Linux
-.NEt Core does not have official support for x86 processors on Linux. However the developers have been working hard making it a reality and it's 99% ready. If you're willing to take the increased risk of finding a bug you may want to try anyway. But without an official download you'll need to build you're own copy of .Net Core. This repository contains what I found successful when building .NET Core for x86 Linux. It's here to help anybody attempting to do the same.
+.NET Core does not have official support for x86 processors on Linux. However the developers have been working hard making it a reality and it's 99% ready. If you're willing to take the increased risk of finding a bug you may want to try anyway. But without an official download you'll need to build you're own copy of .Net Core. This repository contains what I found successful when building .NET Core for x86 Linux. It's here to help anybody attempting to do the same.
 
 ## General instructions
 You'll need a supported Linux machine with a supoprted processor. I used Debian 9 running with an amd64 processor. Check out the [coreclr build documentation](https://github.com/dotnet/coreclr/tree/master/Documentation/building) for more inforamtion on what is supported.
