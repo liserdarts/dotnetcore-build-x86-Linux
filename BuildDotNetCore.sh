@@ -32,7 +32,7 @@ BuildClr()
 	read Uninstalled
 
 	sudo apt-get install debootstrap
-	sudo apt-get install qemu-user-static
+	sudo apt-get install qemu-user-static libunwind8
 	cd coreclr
 	sudo ./cross/build-rootfs.sh x86
 	sudo apt-get install cmake
