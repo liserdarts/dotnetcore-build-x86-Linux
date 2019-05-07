@@ -31,8 +31,9 @@ BuildClr()
 	echo "Press enter when done"
 	read Uninstalled
 
+	sudo apt-get install libunwind8
 	sudo apt-get install debootstrap
-	sudo apt-get install qemu-user-static libunwind8
+	sudo apt-get install qemu-user-static
 	cd coreclr
 	sudo ./cross/build-rootfs.sh x86
 	sudo apt-get install cmake
